@@ -12,14 +12,14 @@ Copyright (C) 2023 [AngelaCooljx](https://github.com/AngelaCooljx)
 1. 拉源码/Pull source code
 - ROM:  
 `mkdir [YOUR ROM SOURCE] && cd [YOUR ROM SOURCE]`  
-`repo init -u https://github.com/lineage/android.git -b lineage-21 --git-lfs --depth=1`  
+`repo init -u https://github.com/LineageOS/android.git -b lineage-21 --git-lfs --depth=1`  
 `repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`  
 - Device Configuration:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_device_xiaomi_cezanne-old -b qpr3 --single-branch --depth=1 device/xiaomi/cezanne`
 - Kernel Source:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_kernel_xiaomi_mt6885.git -b cgroup-v2 --single-branch --depth=1 kernel/xiaomi/mt6885`
 - Mtk Hardware:  
-`git clone https://github.com/xiaomi-mt6885-devs/android_hardware_mediatek -b fourteen hardware/mediatek`
+`git clone https://github.com/xiaomi-begonia-dev/android_hardware_mediatek -b fourteen hardware/mediatek`
 - Sepolicy_vndr:  
 `git clone https://github.com/xiaomi-mt6885-devs/android_device_mediatek_sepolicy_vndr -b arrow-14.0 --single-branch device/mediatek/sepolicy_vndr`
 
